@@ -1,0 +1,8 @@
+<nav aria-label="breadcrumb">
+  <ul>
+    {{- range after 1 .Ancestors.Reverse }}
+      <li><a class="secondary" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+    <li>{{ .Title }}</li>
+  </ul>
+</nav>

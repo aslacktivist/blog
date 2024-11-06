@@ -1,0 +1,17 @@
+{{ define "style" }}
+<style>
+    #articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: var(--pico-spacing);
+    grid-auto-rows: 1fr;
+    }
+</style>
+{{ end }}
+
+
+{{ define "main" }}
+  <div class="content" role="document">
+    {{ .Content }}
+  </div>
+{{ end }}

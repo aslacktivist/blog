@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ partial "breadcrumbs.html" . }}
+  {{ .Content }}
+  {{ range .Pages }}
+    <article>
+      <h2><a class="secondary" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ range .Pages }}
+        <p><b><a class="secondary" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></b></p>
+      {{ end }}
+    </article>
+  {{ end }}
+{{ end }}
