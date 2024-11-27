@@ -1,6 +1,5 @@
 +++
 date = '2024-11-05T00:54:38-05:00'
-draft = true
 title = 'A Slacktivist Blog'
 +++
 
