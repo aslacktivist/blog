@@ -8,4 +8,4 @@ I'm a one man team, please give some time for me to respond.
 
 If you notice any typos, feel free to send me a message. They are always welcome.
 
-[Email: Sean Slater (Owner)](email:sean@spslater.com)
+[Email: Sean Slater (Owner)](mailto:sean@spslater.com)
