@@ -24,6 +24,7 @@
     {{- end }}
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
     {{ block "style" . }}{{ end }}
+    <script defer data-domain="slacktivist.blog" src="https://analytics.whatno.io/js/script.hash.outbound-links.js"></script>
   </head>
   <body>
     <header>
